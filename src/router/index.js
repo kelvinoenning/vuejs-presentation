@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import One from '@/components/One'
+import Author from '@/components/Author'
 import Two from '@/components/Two'
 
 Vue.use(Router)
@@ -14,13 +14,18 @@ export default new Router({
       component: Home
     },
     {
+      path: '/0',
+      name: '0',
+      component: Home
+    },
+    {
       path: '/1',
       name: '1',
-      component: One
+      component: Author
     },
     {
       path: '/2',
-      name: 'Two',
+      name: '2',
       component: Two
     }
   ]

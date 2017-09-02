@@ -1,6 +1,13 @@
 <template>
-  <div class="title">
-    home
+  <div class="box">
+    <div>
+      <div class="title">
+        <h1>De 0 a 100 com VueJS</h1>
+      </div>
+      <div class="author">
+        <h3>Kelvin Oenning</h3>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -14,6 +21,11 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.title, .author{
+  text-align: center;
+}
+.author{
+  margin-top: 55px;
+}
 </style>
