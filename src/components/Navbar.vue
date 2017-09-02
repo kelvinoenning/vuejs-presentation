@@ -1,6 +1,6 @@
 <template>
   <div class="custom-navbar">
-    <button type="button" class="btn btn-primary btn-sm" v-show="position > 0" @click="back()"> << </button>
+    <button type="button" class="btn btn-primary btn-sm" @click="back()"> << </button>
     <button type="button" class="btn btn-primary btn-sm" @click="go()"> >> </button>
   </div>
 </template>
