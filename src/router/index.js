@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Author from '@/components/Author'
-import Two from '@/components/Two'
+import VueImg from '@/components/VueImg'
+import File from '@/components/File'
+import Reactive from '@/components/Reactive'
 
 Vue.use(Router)
 
@@ -26,7 +28,17 @@ export default new Router({
     {
       path: '/2',
       name: '2',
-      component: Two
+      component: VueImg
+    },
+    {
+      path: '/3',
+      name: '3',
+      component: File
+    },
+    {
+      path: '/4',
+      name: '4',
+      component: Reactive
     }
   ]
 })

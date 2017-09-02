@@ -28,7 +28,7 @@ html,body{
   font-family: 'Ubuntu';
 }
 
-h1,h2,h3{
+h1,h2,h3, label{
   color: #fff;
 }
 h1{
@@ -38,6 +38,9 @@ h2{
   font-size: 5em;
 }
 h3{
+  font-size: 3em;
+}
+label{
   font-size: 3em;
 }
 

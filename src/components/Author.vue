@@ -6,13 +6,13 @@
         <h2>Kelvin Oenning</h2>
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-5">
             <img src="static/dev.jpeg" alt="dev">
           </div>
-          <div class="col-md-6">
-            <h3 class="description">Entusiasta em Desenvolvimento/Tecnologia</h3>
-            <h3 class="description">Amante de projetos desafiadores</h3>
-            <h3 class="description">Entusiasta em Overclock</h3>
+          <div class="col-md-7">
+            <h2 class="description">Entusiasta em Desenvolvimento/Tecnologia</h2>
+            <h2 class="description">Amante de projetos desafiadores</h2>
+            <h2 class="description">Entusiasta em Overclock</h2>
           </div>
         </div>
       </div>
@@ -41,12 +41,14 @@ export default {
   text-align: center;
 }
 .row{
-  margin-top: 45px;
+  margin-top: 100px;
 }
 .description{
   margin-top: 45px;
+  font-size: 4.5em;
 }
 img{
-  max-width: 700px;
+  width: 700px;
+  max-width: 100%;
 }
 </style>
