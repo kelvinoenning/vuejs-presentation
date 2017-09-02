@@ -5,6 +5,7 @@ import Author from '@/components/Author'
 import VueImg from '@/components/VueImg'
 import File from '@/components/File'
 import Reactive from '@/components/Reactive'
+import SampleCode from '@/components/SampleCode'
 
 Vue.use(Router)
 
@@ -39,6 +40,11 @@ export default new Router({
       path: '/4',
       name: '4',
       component: Reactive
+    },
+    {
+      path: '/5',
+      name: '5',
+      component: SampleCode
     }
   ]
 })
