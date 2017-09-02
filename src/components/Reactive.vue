@@ -1,10 +1,13 @@
 <template>
   <div class="box">
     <div class="text-center">
+
       <div class="form-group">
         <input type="text" class="form-control" v-model="text">
       </div>
+
       <h1 :class="getColor()">{{text}}</h1>
+
       <div>
         <pre class="line-numbers language-markup">
             <code>
@@ -12,6 +15,7 @@
             </code>
         </pre>
       </div>
+
     </div>
   </div>
 </template>
@@ -24,8 +28,8 @@ export default {
       text: 'Reativo?',
       example:
       `
-            <input type="text" v-model="text">
-            <h1 :class="getColor()">{{text}}</h1>
+        <input type="text" v-model="text">
+        <h1 :class="getColor()">{{text}}</h1>
       `
     }
   },
@@ -42,8 +46,18 @@ export default {
 </script>
 
 <style scoped>
+.box{
+  min-height: 99.9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 h1{
   margin-top: 35px;
+  font-size: 6em;
+}
+code{
+  font-size: 3em;
 }
 .form-control{
   font-size: 6em;
