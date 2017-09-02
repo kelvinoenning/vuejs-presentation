@@ -44,6 +44,13 @@ label{
   font-size: 3em;
 }
 
+pre{
+  text-align: left !important;
+  margin-top: 100px !important;
+  font-size: 2em;
+  padding: 0px !important;
+}
+
 .filter{
   background-color: rgba(0, 0, 0, 0.5);
   min-height: 99.99vh;
