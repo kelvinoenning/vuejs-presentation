@@ -8,6 +8,9 @@ Vue.config.productionTip = false
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import '@/../static/prism.css'
+import '@/../static/prism.js'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
